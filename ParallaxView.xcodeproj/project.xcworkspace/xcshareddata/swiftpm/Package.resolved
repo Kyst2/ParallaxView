@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "parallaxpackage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Kyst2/ParallaxPackage.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "28360e24e803c6c705baf606fce5edff867417a1"
+      }
+    }
+  ],
+  "version" : 2
+}
