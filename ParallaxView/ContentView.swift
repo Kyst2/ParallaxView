@@ -19,9 +19,9 @@ struct ContentView: View {
                     ParallaxLayer(image: Image("depth-2"), magnitude : 10)
                     ParallaxLayer(image: Image("depth-3"), magnitude : 10)
 #elseif os(macOS)
-                    ParallaxLayer(image: Image("depth-1"), speed: 10 )
-                    ParallaxLayer(image: Image("depth-2"), speed: 30 )
-                    ParallaxLayer(image: Image("depth-3"), speed: 50)
+                    ParallaxLayer(image: Image("depth-1"), speed: 15 )
+                    ParallaxLayer(image: Image("depth-2"), speed: 35 )
+                    ParallaxLayer(image: Image("depth-3"), speed: 55)
 #endif
                 }
             }
