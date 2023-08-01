@@ -16,8 +16,8 @@ struct ContentView: View {
                 ZStack {
 #if os(iOS)
                     ParallaxLayer(image: Image("depth-1"), magnitude : 10)
-                    ParallaxLayer(image: Image("depth-2"), magnitude : 10)
-                    ParallaxLayer(image: Image("depth-3"), magnitude : 10)
+                    ParallaxLayer(image: Image("depth-2"), magnitude : 30)
+                    ParallaxLayer(image: Image("depth-3"), magnitude : 50)
 #elseif os(macOS)
                     ParallaxLayer(image: Image("depth-1"), speed: 15 )
                     ParallaxLayer(image: Image("depth-2"), speed: 35 )
