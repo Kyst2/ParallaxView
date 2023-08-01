@@ -10,3 +10,7 @@ How it looks on iOS:
 ==
 [![Parallax iOS example][2]][2]
 
+
+
+[1]: https://i.stack.imgur.com/c1xhm.gif
+[2]: https://i.stack.imgur.com/CAUhR.gif
